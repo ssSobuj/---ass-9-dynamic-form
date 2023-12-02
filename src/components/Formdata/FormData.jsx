@@ -28,7 +28,7 @@ export default function FormData({ formInput, setFormInput }) {
 
     for (const item of formInput) {
       if (item.ClothId === product.ClothId) {
-        return alert("স্যার! অন্য আইডি দেন স্যার");
+        return alert("This ID alredy exist");
       }
     }
     
