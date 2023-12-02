@@ -19,10 +19,10 @@ export default function FormData({ formInput, setFormInput }) {
       if(element.type === 'radio' && !element.checked){
         return
       }else{
-        // element.checked=''
+        element.checked=''
       }
       product[element.name] = element.value;
-      // element.value=''
+      element.value=''
      
     });
 
